@@ -6,6 +6,18 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Godgen = () => {
+  const num = Math.floor(Math.random() * 9);
+  const godname = [
+    "Daphnia god of Healthy microbiomes",
+    "Hypnos god of sleep and dream",
+    "Egg boy child god of prosperity",
+    "Diamond Elephant god of Preseverance",
+    "Kubera Dwarf god of wealth",
+    "Brahma God of creation",
+    "Cuda god of productivity",
+    "Hutte elephant god of cypertrunk",
+    "White elephant god of love and longevity",
+  ];
   const Button = styled.button`
     background-color: white;
     padding: 15px;
@@ -13,10 +25,17 @@ export const Godgen = () => {
     border-radius: 8px;
     font-weight: bold;
   `;
+
+  const Name = styled.div`
+    font-size: 25px;
+    color: white;
+    margin: 20px 0 0 0;
+  `;
   return (
     <GodWrap>
       <Nav />
-      <God />
+      <Name>{godname[num]}</Name>
+      <God num={num} />
       <Bless>
         <div>This god will bless you nothing</div>
       </Bless>

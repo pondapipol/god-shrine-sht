@@ -6,7 +6,8 @@ import god5 from "./god5.jpg";
 import god6 from "./god6.png";
 import god7 from "./god7.png";
 import godex from "./godex.png";
+import god8 from "./god8.png";
 
-const img = [god1, god2, god3, god4, god5, god6, godex, god7];
+const img = [god1, god2, god3, god4, god5, god6, godex, god7, god8];
 
 export default img;
