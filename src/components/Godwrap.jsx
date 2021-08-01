@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { useEffect, useState } from "react";
 
 export const GodWrap = ({ children }) => {
   const Godwrap = styled.div`

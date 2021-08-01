@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import god from "../img/godex.png";
 import img from "../img/img";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export const God = ({ num }) => {
-  const [pic, setPic] = useState(img[num]);
+  const [pic] = useState(img[num]);
 
   const ImgWrap = styled.div`
     width: 100%;

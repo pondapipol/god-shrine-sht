@@ -2,7 +2,6 @@ import { Nav } from "../components/navbar";
 import { God } from "../components/God";
 import { Bless } from "../components/Bless";
 import { GodWrap } from "../components/Godwrap";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Godgen = () => {
